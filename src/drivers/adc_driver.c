@@ -28,5 +28,5 @@ int32_t adc_read_impl(void) {
 }
 
 double adc_scale_voltage(int32_t voltage_raw) {
-    return (double) (voltage_raw >> (ADC_SHIFT + 1)) / 16.0;
+    return (double) (voltage_raw >> (ADC_SHIFT)) / 16.0;
 }
