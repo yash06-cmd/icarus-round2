@@ -36,6 +36,8 @@ The safe switch turned on at tick 1497. In src/drivers/adc_driver.c the ADC valu
 I changed ADC_SHIFT + 1 to ADC_SHIFT.
 The voltage was being divided by two unnecessarily, which caused the false safe mode condition.
 
+note: Fault injection documentation included in fault-injection branch.
+
 
 
 
