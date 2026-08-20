@@ -1,4 +1,4 @@
-DOUMENTATION
+DOCUMENTATION
 (Fault injection)
 Yash Khandelwal
 251580051782
