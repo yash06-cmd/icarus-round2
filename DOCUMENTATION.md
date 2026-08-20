@@ -1,4 +1,5 @@
-DOUMENTATION
+DOCUMENTATION
+
 Yash Khandelwal
 251580051782
 
@@ -6,7 +7,6 @@ Yash Khandelwal
 
 Working on the given question began with pulling the docker file and setting up the provided environment so the project could be run locally.
 After extracting the workspace I opened the code folder in VScode and used powershell to start the docker container and run the program for the first time to observe its behaviour. Multiple attempts of running and debugging led to my identification of 4 faults.
-
 
 
 
@@ -36,7 +36,7 @@ The safe switch turned on at tick 1497. In src/drivers/adc_driver.c the ADC valu
 I changed ADC_SHIFT + 1 to ADC_SHIFT.
 The voltage was being divided by two unnecessarily, which caused the false safe mode condition.
 
-note: Fault injection documentation included in fault-injection branch.
+Note: Fault injection documentation is present in the fault injection repository. 
 
 
 
